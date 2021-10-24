@@ -25,20 +25,21 @@
   },
   "homepage": "https://github.com/ktroitsky/apollo-auth-utils#readme",
   "devDependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
     "@types/node": "^16.11.4",
     "@types/ramda": "^0.27.45",
     "@types/react": "^17.0.31",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-flowtype": "^6.1.1",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.4.1",
     "ts-node": "^10.4.0",
-    "@react-native-community/eslint-config": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.28.4",
-    "eslint": "^7.31.0",
-    "eslint-plugin-react": "^7.24.0"
+    "typescript": "^4.4.4"
   },
   "dependencies": {
     "@apollo/client": "^3.4.16",
@@ -47,7 +48,6 @@
     "apollo3-cache-persist": "^0.13.0",
     "graphql": "^15.6.1",
     "ramda": "^0.27.1",
-    "react": "^17.0.2",
-    "typescript": "^4.4.4"
+    "react": "^17.0.2"
   }
 }
